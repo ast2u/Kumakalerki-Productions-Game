@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kumakalerkiproductions1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KumakalerkiProductions1">
+        <activity
+            android:name=".moreaboutus"
+            android:exported="true" />
+        <activity
+            android:name=".infopg"
+            android:exported="true" />
+        <activity
+            android:name=".aboutrpg"
+            android:exported="true" />
+        <activity
+            android:name=".gamenextST2"
+            android:exported="true" />
+        <activity
+            android:name=".gamestarting"
+            android:exported="true" />
+        <activity
+            android:name=".typerpgstart"
+            android:exported="true" />
+        <activity
+            android:name=".gameoverleap"
+            android:exported="true" />
+        <activity
+            android:name=".aboutus"
+            android:exported="true" />
+        <activity
+            android:name=".infotab"
+            android:exported="true" />
+        <activity
+            android:name=".startleap2"
+            android:exported="true" />
+        <activity
+            android:name=".startleap"
+            android:exported="true" />
+        <activity
+            android:name=".About"
+            android:exported="true" />
+        <activity
+            android:name=".Instructions"
+            android:exported="true" />
+        <activity
+            android:name=".YOUWIN"
+            android:exported="true" />
+        <activity
+            android:name=".final_anim"
+            android:exported="true" />
+        <activity
+            android:name=".FINAL_SCENE"
+            android:exported="true" />
+        <activity
+            android:name=".gameover"
+            android:exported="true" />
+        <activity
+            android:name=".classroom_scene"
+            android:exported="true" />
+        <activity
+            android:name=".animation"
+            android:exported="true" />
+        <activity
+            android:name=".second_scene"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StartingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".startingstartactivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

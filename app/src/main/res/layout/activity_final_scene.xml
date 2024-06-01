@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FINAL_SCENE">
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+
+
+        android:color="@android:color/white"
+        android:radius="10dp"
+
+        android:shadowColor="@color/purple_200"
+        android:text="next"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        app:rippleColor="@color/black"
+        app:strokeColor="@color/purple_700" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+
+
+        android:color="@android:color/white"
+        android:radius="10dp"
+
+        android:shadowColor="@color/purple_200"
+        android:text="next"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        app:rippleColor="@color/black"
+        app:strokeColor="@color/purple_700" />
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+
+
+        android:color="@android:color/white"
+        android:radius="10dp"
+
+        android:shadowColor="@color/purple_200"
+        android:text="next"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        app:rippleColor="@color/black"
+        app:strokeColor="@color/purple_700" />
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+
+
+        android:color="@android:color/white"
+        android:radius="10dp"
+
+        android:shadowColor="@color/purple_200"
+        android:text="next"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        app:rippleColor="@color/black"
+        app:strokeColor="@color/purple_700" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/final_scene" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="420dp"
+        android:layout_height="43dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="420dp"
+        android:layout_height="43dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="420dp"
+        android:layout_height="43dp"
+        android:text="Oi bat ka nakatulala diyan"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="420dp"
+        android:layout_height="43dp"
+        android:text="Tara punta na tayo sa taas"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
